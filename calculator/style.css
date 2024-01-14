@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    font-family: 'Salsa', cursive;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.h1{
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-size: 50px;
+    color: transparent;
+    margin: 0%;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    background-clip: text;
+
+}
+
+.bgi{
+    position:absolute;
+    width: 100vw-10px;
+    height: 100vh;
+    font-size: 200px;
+    z-index: -11;
+    background-image: url("./icons/13744786_Mar-Business_11.jpg");
+}
+
+.container{
+    position: relative;
+    left: 32%;
+    min-width: 30vw;
+    max-width:fit-content;
+    min-height: 70vh;
+    height: fit-content+10px;
+    margin: 25px;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 20px;
+    /* background-image: url("./icons/6982904_3371524.jpg");
+    background-size: cover;
+    background-position: center; */
+   
+    background-color: #FA8BFF; 
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+    box-shadow: 5px 5px 10px black;
+    border: 2px solid white;
+
+}
+
+.display{
+    width: 95%;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+
+
+.minidisplay{
+    height: 30px;
+    margin: 0%;
+    font-size: 25px;
+    text-align: end;
+    position: relative;
+    top: 80px;
+    max-width: 100%;
+    color: white;
+
+}
+.maindisplay{
+    margin: 0%;
+    font-size: 50px;
+    text-align: end;
+    position: relative;
+    top: 100px;
+    height: 60px;
+    overflow: hidden;
+    max-width: 100%;
+    color: white;
+
+}
+
+.btngroup{
+    margin-top: 20px;
+    min-width: 95%;
+    max-width: fit-content;
+    height: fit-content;
+    border: 2px solid white;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    padding: 10px;
+   
+    
+}
+button{
+    background-color: white;
+    min-width: 70px;
+    min-height: 70px;
+    width: fit-content;
+    height: fit-content;
+    border: 0px;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+button:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+button:active{
+    scale: 0.8;
+}
+
+.one{
+    background-image: url("./icons/1.png");
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    background-image: url("./icons/number-2.png");
+    background-position: center;
+    background-size: cover;
+}
+.three{
+    background-image: url("./icons/number-3.png");
+    background-position: center;
+    background-size: cover;
+}
+.four{
+    background-image: url("./icons/four.png");
+    background-position: center;
+    background-size: cover;
+}
+.five{
+    background-image: url("./icons/5.png");
+    background-position: center;
+    background-size: cover;
+}
+.six{
+    background-image: url("./icons/six.png");
+    background-position: center;
+    background-size: cover;
+}
+.seven{
+    background-image: url("./icons/7.png");
+    background-position: center;
+    background-size: cover;
+}
+.eight{
+    background-image: url("./icons/number-8.png");
+    background-position: center;
+    background-size: cover;
+}
+.nine{
+    background-image: url("./icons/number-9.png");
+    background-position: center;
+    background-size: cover;
+}
+.addition{
+    background-image: url("./icons/plus.png");
+    background-position: center;
+    background-size: cover;
+}
+.subtract{
+    background-image: url("./icons/minus-button.png");
+    background-position: center;
+    background-size: cover;
+}
+.multiply{
+    background-image: url("./icons/close.png");
+    background-position: center;
+    background-size: cover;
+}
+.divide{
+    background-image: url("./icons/divide.png");
+    background-position: center;
+    background-size: cover;
+}
+.clear{
+    background-image: url("./icons/bin.png");
+    background-position:center;
+    background-size: cover;
+}
+
+.zero{
+    background-image: url("./icons/0.png");
+    background-position: center;
+    background-size: cover;
+}
+.equal{
+    background-image: url("./icons/equal.png");
+    background-position: center;
+    background-size: cover;
+}
+
