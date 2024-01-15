@@ -10,43 +10,26 @@ body{
 
 }
 
-.h1{
+.head{
     text-align: center;
-    -webkit-text-stroke: 1px white;
-    font-size: 50px;
-    color: transparent;
-    margin: 0%;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-    background-clip: text;
-
 }
 
-.bgi{
-    position:absolute;
-    width: 100vw-10px;
-    height: 100vh;
-    font-size: 200px;
-    z-index: -11;
-    background-image: url("./icons/13744786_Mar-Business_11.jpg");
-}
+
 
 .container{
     position: relative;
     left: 32%;
     min-width: 30vw;
     max-width:fit-content;
-    min-height: 70vh;
-    height: fit-content+10px;
+    min-height: 60vh;
+    height: fit-content;
     margin: 25px;
     border: 2px solid white;
     border-radius: 35px;
-    padding: 20px;
-    /* background-image: url("./icons/6982904_3371524.jpg");
-    background-size: cover;
-    background-position: center; */
-   
-    background-color: #FA8BFF; 
-background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    padding: 15px;
+    background-color: black;
+    /* background-color: #FA8BFF; 
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); */
 
     box-shadow: 5px 5px 10px black;
     border: 2px solid white;
@@ -59,6 +42,7 @@ background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
     border: 2px solid white;
     border-radius: 35px;
     padding: 10px;
+    background-color: #d4d4d2;
 }
 
 
@@ -71,7 +55,7 @@ background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
     position: relative;
     top: 80px;
     max-width: 100%;
-    color: white;
+    color: black;
 
 }
 .maindisplay{
@@ -83,13 +67,13 @@ background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
     height: 60px;
     overflow: hidden;
     max-width: 100%;
-    color: white;
+    color: black;
 
 }
 
 .btngroup{
     margin-top: 20px;
-    min-width: 95%;
+    min-width: 98%;
     max-width: fit-content;
     height: fit-content;
     border: 2px solid white;
@@ -97,7 +81,7 @@ background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 10px;
-    padding: 10px;
+    padding: 5px;
    
     
 }
@@ -109,17 +93,36 @@ button{
     height: fit-content;
     border: 0px;
     border-radius: 100px;
-    border: 2px solid white;
     margin-left: 20px;
+    border: 2px solid white;
 }
-button:hover{
-    box-shadow: 2px 2px 5px black;
-}
+
 
 button:active{
     scale: 0.8;
 }
 
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero{
+    font-size: 45px;
+    background-color: #d4d4d2;
+}
+
+.multiply, .subtract, .addition, .equal, .divide{
+    font-size: 45px;
+    background-color: #ff9500;
+    color: #d4d4d2;
+}
+
+.clear{
+    font-size: 20px;
+    color: #d4d4d2;
+    background-color: #ff9500;
+
+}
+
+
+/* for different button icon remove the below css comment */
+/* 
 .one{
     background-image: url("./icons/1.png");
     background-position: center;
@@ -200,5 +203,5 @@ button:active{
     background-image: url("./icons/equal.png");
     background-position: center;
     background-size: cover;
-}
+} */
 

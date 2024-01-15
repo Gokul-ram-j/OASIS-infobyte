@@ -32,8 +32,14 @@ function display(elem){
         try{
             let finalResult=eval(maindisplay.innerHTML)
             finalResult=finalResult.toString()
-            maindisplay.innerHTML=finalResult
-            console.log(finalResult)
+            if(finalResult.length>8){
+                maindisplay.innerHTML=finalResult.substring(0,11)
+
+            }
+            else{
+                maindisplay.innerHTML=finalResult
+
+            }
             
         }
         catch(err){
