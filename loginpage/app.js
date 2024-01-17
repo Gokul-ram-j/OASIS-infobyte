@@ -53,6 +53,9 @@ form2.addEventListener("submit",(e)=>{
     else{
         edisplay2.innerHTML="successfully Registered"
         edisplay2.style.color="green"
+        newUser.style.border="2px solid green"
+        npass.style.border="2px solid green"
+        ncpass.style.border="2px solid green"
         listOfUsers.push([newUser.value,parseInt(npass.value)])
         console.log(newUser.value,npass.value)
     }
