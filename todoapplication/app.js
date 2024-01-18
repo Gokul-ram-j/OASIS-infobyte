@@ -124,10 +124,15 @@ function addnewlist(){
     btn.setAttribute("class","btn-17")
     btn.classList.add("addmaintask")
 
+    let dbtn=document.createElement("button")
+    dbtn.setAttribute("class","removetasktype")
+    dbtn.setAttribute("onclick","removeelem(this)")
+    dbtn.innerHTML="X"
+
     tasktype.append(h2)
     tasktype.append(tasks)
     tasktype.append(btn)
-
+    tasktype.append(dbtn)
     alltask.append(tasktype)
     
 }

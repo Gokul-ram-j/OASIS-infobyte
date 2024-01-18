@@ -101,6 +101,24 @@ input{
     border: 2px solid black;
     border-radius:20px ;
     box-shadow: 5px 5px 5px  black;
+    position: relative;
+}
+
+
+
+.removetasktype{
+    background: black;
+    color: white;
+    position: absolute;
+    top: 11px;
+    left: 87%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.removetasktype:hover{
+    background: white;
+    color: #000;
 }
 
 .task{
